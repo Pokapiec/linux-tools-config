@@ -35,6 +35,12 @@
         { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
         { "before": ["leader", "n"], "commands": ["workbench.action.files.newUntitledFile"] },
         { "before": ["leader", "="], "commands": ["workbench.action.editor.changeLanguageMode"] },
+        { "before": ["leader", "b"], "commands": ["workbench.action.toggleSidebarVisibility"] },
+        { "before": ["leader", "."], "commands": ["editor.action.quickFix"] },
+
+        // NICE TO HAVE
+        { "before": ["leader", "w"], "commands": [":w"] },
+        { "before": ["leader", "q"], "commands": [":q"] },
     ],
     "files.exclude": {
         "**/__pycache__": true,
@@ -75,4 +81,10 @@
     ],
     "terminal.integrated.lineHeight": 1.2,
     "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "python.analysis.autoFormatStrings": true,
+    "python.languageServer": "Pylance",
+    "vim.commandLineModeKeyBindings": [
+
+    ],
+    "editor.lineNumbers": "relative",
 }
