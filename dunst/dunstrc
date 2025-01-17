@@ -226,7 +226,7 @@
 
     # Ignore the dbus closeNotification message.
     # Useful to enforce the timeout set by dunst configuration. Without this
-    # parameter, an application may close the notification sent before the 
+    # parameter, an application may close the notification sent before the
     # user defined timeout.
     ignore_dbusclose = false
 
@@ -294,14 +294,14 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#323440"
     foreground = "#7d86a1"
-    timeout = 10
+    timeout = 50
     # Icon for notifications with low urgency, uncomment to enable
     #new_icon = /path/to/icon
 
 [urgency_normal]
     background = "#282a36"
     foreground = "#c0addb"
-    timeout = 10
+    timeout = 50
     # Icon for notifications with normal urgency, uncomment to enable
     #new_icon = /path/to/icon
 

@@ -18,8 +18,8 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         // NAVIGATION
         // switch b/w buffers
-        { "before": ["<S-h>"], "commands": [":bprevious"] },
-        { "before": ["<S-l>"], "commands": [":bnext"] },
+        // { "before": ["<S-h>"], "commands": [":bprevious"] },
+        // { "before": ["<S-l>"], "commands": [":bnext"] },
 
         // splits
         { "before": ["leader", "v"], "commands": [":vsplit"] },
@@ -87,4 +87,7 @@
 
     ],
     "editor.lineNumbers": "relative",
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
 }
