@@ -212,13 +212,14 @@ client.placeholder      #2e2f36 #2e2f36 #F8F8F2 #2e2f36   #2e2f36
 client.background       #F8F8F2
 
 bar {
+        position top
         status_command i3status -c /home/$USER/.config/i3status/i3status.conf
+        # status_command i3blocks -c /home/$USER/.config/i3blocks/i3blocks.conf
         i3bar_command i3bar --transparency
         mode dock
         separator_symbol "||"
         colors {
-                # background #2e2f36
-                background #2e2f36
+                background #101012
                 statusline #F8F8F2
                 separator  #494d5c
 
@@ -229,6 +230,7 @@ bar {
                 binding_mode       #FF5555 #FF5555 #F8F8F2
   }
 }
+
 
 
 
