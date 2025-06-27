@@ -1,0 +1,6 @@
+[alias]
+    cam = commit -am
+    c = checkout
+[alias]
+    fc = !sh -c 'git fetch && git checkout $1' -
+    fp = !sh -c 'git fetch && git pull' -
